@@ -5,7 +5,7 @@ import { BiWorld } from "react-icons/bi";
 const Contact = () => {
 	return (
 		<div className="mt-24 w-full p-4 ">
-			<p className="p-5 text-start shadow-xl rounded text-lg space-x-3"> <Link to='/'>Home</Link> / <span className=" text-[#00A699]">Contact Us</span></p>
+			<p className="p-5 text-start text-lg space-x-3"> <Link to='/'>Home</Link> / <span className=" text-[#00A699]">Contact Us</span></p>
 			<div className="mt-10 w-full p-1 space-y-4">
 				<h1 className="text-3xl text-start text-[#00A699]">Get in touch</h1>
 				<div className="w-full grid grid-cols-1 lg:grid-cols-2 justify-start space-y-3 gap-4">

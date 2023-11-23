@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 const About = () => {
 	return (
 		<div className="mt-24 w-full p-4">
-			<p className="text-start p-5 shadow-xl rounded text-lg space-x-3"> <Link to='/'>Home</Link> / <span className=" text-[#00A699]">About Us</span></p>
+			<p className="text-start p-5 text-lg space-x-3"> <Link to='/'>Home</Link> / <span className=" text-[#00A699]">About Us</span></p>
 			<div className="mt-14 w-full grid grid-cols-1 lg:grid-cols-2 justify-start p-2 gap-5">
 				<img className="rounded" src="./images/mareefo.jpg" alt="" />
 				<div className="w-full">

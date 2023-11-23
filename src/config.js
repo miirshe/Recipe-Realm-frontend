@@ -14,3 +14,9 @@ export { default as Contact }
 from './pages/Contact.jsx'
 export { default as Recipe }
 from './pages/Recipe.jsx'
+export { default as PopularRecipe }
+from './components/features/PopularRecipe.jsx'
+export { default as ChefInfo }
+from './components/features/ChefInfo.jsx'
+export { default as Footer }
+from './components/Footer.jsx'
