@@ -55,12 +55,29 @@ export const userSlice = createApi({
                 }
             },
             providesTags: ['user']
-        })
+        }),
+        updateCurrentUser: builder.mutation({
+            query: (updateUser) => ({
+                url: '/user',
+                method: 'PUT',
+                body: updateUser
+            }),
+            invalidatesTags: ['user']
+        }),
+        deleteCurrentUser: builder.mutation({
+            query: () => ({
+                url: '/user',
+                method: 'DELETE'
+            }),
+            invalidatesTags: ['user']
+        }),
     })
 })
 
 export const {
     useRegisterUserMutation,
     useLoginUserMutation,
-    useCurrentUserQuery
+    useCurrentUserQuery,
+    useDeleteCurrentUserMutation,
+    useUpdateCurrentUserMutation
 } = userSlice

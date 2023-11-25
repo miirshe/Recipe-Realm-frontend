@@ -38,7 +38,7 @@ const Header = () => {
 			<Link to='/add_recipe' className='cursor-pointer flex flex-row justify-start items-center gap-5'> <MdAdd size={25}/> <span>Add Recipe</span></Link>
 			<Link to='/recipe' className='cursor-pointer flex flex-row justify-start items-center gap-5'><MdOutlineInfo size={20}/> <span>your Recipe</span></Link>
 			<Link to='/profile' className='cursor-pointer flex flex-row justify-start items-center gap-5'><CgProfile size={20}/> <span>Profile</span></Link>
-			<Link to='/edit_profile' className='cursor-pointer flex flex-row justify-start items-center gap-5'> <MdEdit size={20}/> <span>Edit Profile</span></Link>
+			<Link to='/editProfile' className='cursor-pointer flex flex-row justify-start items-center gap-5'> <MdEdit size={20}/> <span>Edit Profile</span></Link>
 			<Link onClick={() => handleLogout()} className='cursor-pointer flex flex-row justify-start items-center gap-5'> <MdLogout size={20}/> <span>Logout</span></Link>
 			<Link to='/delete_account' className='cursor-pointer flex flex-row justify-start items-center gap-5 text-red-500'> <MdOutlineDelete size={20}/> <span>Delete account</span></Link>
 		</div>

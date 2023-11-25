@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import { About, Contact, Footer, Header, Home, Login, Recipe, Register } from './config.js'
+import { About, Contact, EditProfile, Footer, Header, Home, Login, Recipe, Register } from './config.js'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 function App() {
@@ -17,6 +17,9 @@ function App() {
         <Route path='/about' element = {<About/>}/>
         <Route path='/contact' element = {<Contact/>}/>
         <Route path='/recipe' element = {<Recipe/>}/>
+
+        {/* private routes */}
+        <Route path='/editProfile' element = {<EditProfile/>}/>
       </Routes>
       <Footer/>
     </>

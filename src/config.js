@@ -20,3 +20,5 @@ export { default as ChefInfo }
 from './components/features/ChefInfo.jsx'
 export { default as Footer }
 from './components/Footer.jsx'
+export { default as EditProfile }
+from './pages/EditProfile.jsx'
